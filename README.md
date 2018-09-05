@@ -1,2 +1,2 @@
 # Homework
-homework cs110
+Open index.html for more info

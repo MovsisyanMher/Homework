@@ -1,3 +1,7 @@
+//#region Homework 2
+
+
+
 // At least two constants
 const beep = true;
 const boop = false;
@@ -22,3 +26,6 @@ else
 
 //Print at least one thing to console
 console.log("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+
+
+//#endregion

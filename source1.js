@@ -17,7 +17,7 @@ const badaap = 42069;
 // At least one if/else block
 if(beep === boop)
 {
-    console.log("This is so sad, " + badoop)
+    console.log("This is so sad, " + badoop);
 }
 else 
 {

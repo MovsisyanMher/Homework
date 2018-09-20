@@ -4,19 +4,30 @@ body
   color: white;
 }
   
+head
+{
+  background: #000000
+}
+
 header 
 {
+  margin-top: 0px;
+  background: #000000;
+  color: #000000;
   text-align: left;
-  margin-top: 5px;
-  background: #000000
+  position: sticky;
+  width: 100%;
+  background-color: #000000;
+  border: #000000;
+  border-color: #000000;
 }
   
 h1 
 {
   font-size: 36px;
-  padding: 15px;
+  padding: 20px;
   color: #ffffff;
-  background-color: #101010;
+  background-color: #000000;
 }
   
 h2 
@@ -57,11 +68,12 @@ td
 
 footer 
 {
-  margin-top: 50px;
+  margin-top: 0px;
   text-align: center;
-  position: fixed;
+  padding: 0.18%;
   width: 100%;
-  bottom: 5px;
+  bottom: 0px;
+  position: -ms-page;
   background-color: #000000;
   z-index: 5;
 }

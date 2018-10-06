@@ -1,10 +1,9 @@
 # Homework
 
-### Open index.html for more info
-
 - [x] **Homework 1**
 - [x] **Homework 2**
 - [x] **Homework 3**
+- [x] **Homework 4**
 - [ ] **Final Project**
 
 Done? | Homework 1
@@ -22,3 +21,8 @@ Done? | Homework 3
 ------------ | -------------
 True | Video explaining Methods
 True | js file with various methods
+
+Done? | Homework 4
+------------ | -------------
+True | Video explaining While loops
+True | js file with a lot of methods

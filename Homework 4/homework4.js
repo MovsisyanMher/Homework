@@ -104,8 +104,10 @@ const forEach = (array, func) => // Anonymous function expressed thru a lambda e
 	if(!Array.isArray(array) || array == null || array == undefined){return null;};
 	//Iterate over all items
 	let lngth = 0;
-	while(lngth !== array.length){func(); lngth++;}
+	while(lngth !== array.length){func.call(); lngth++;}
 };
+//forEach(a, () => {console.log(a[l]); l++;});
+
 
 // 6. Create a function 'sum' that takes an array of numbers and returns their sum.
 const SumUp = (array) => // Anonymous function expressed thru a lambda expression

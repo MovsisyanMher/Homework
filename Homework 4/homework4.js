@@ -98,15 +98,15 @@ const findMinMax = (array, biggest) => // Anonymous function expressed thru a la
 };
 
 //5. Create a function 'forEach' that takes an array and a function and then calls the given function once with each value in the given array.
-const forEach = (array, func) => // Anonymous function expressed thru a lambda expression
+const forEach = function (array, func) 
 {
-	//Check for bad input
-	if(!Array.isArray(array) || array == null || array == undefined){return null;};
-	//Iterate over all items
-	let lngth = 0;
-	while(lngth !== array.length){func.call(); lngth++;}
-};
-//forEach(a, () => {console.log(a[l]); l++;});
+    let juice = 0; // Variable used to account for the number of passes by the while loop
+	while (juice < array.length)
+	{
+        func(array[juice]); // Call the given function, passing in each element of the given array one by one
+        juice++; // Increment juice by 1, thus accounting for a loop
+    }
+}
 
 
 // 6. Create a function 'sum' that takes an array of numbers and returns their sum.
@@ -162,6 +162,5 @@ const checkerBoard = (n) => // Anonymous function expressed thru a lambda expres
 		loopFlux += 1; //Increment loopFlux by 1
 	}
 };
-
 
 //#endregion

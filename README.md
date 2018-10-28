@@ -4,6 +4,7 @@
 - [x] **Homework 2**
 - [x] **Homework 3**
 - [x] **Homework 4**
+- [x] **Homework 5**
 - [ ] **Final Project**
 
 Done? | Homework 1
@@ -26,3 +27,8 @@ Done? | Homework 4
 ------------ | -------------
 True | Video explaining While loops
 True | js file with a lot of methods
+
+Done? | Homework 4
+------------ | -------------
+True | Video explaining the code
+True | Canvas things

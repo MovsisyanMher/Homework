@@ -100,8 +100,9 @@ const findMinMax = (array, biggest) => // Anonymous function expressed thru a la
 //5. Create a function 'forEach' that takes an array and a function and then calls the given function once with each value in the given array.
 const forEach = function (array, func) 
 {
-    let juice = 0; // Variable used to account for the number of passes by the while loop
-	while (juice < array.length)
+	let juice = 0; // Variable used to account for the number of passes by the while loop
+	
+	while (juice < array.length) // For every element in the array
 	{
         func(array[juice]); // Call the given function, passing in each element of the given array one by one
         juice++; // Increment juice by 1, thus accounting for a loop
